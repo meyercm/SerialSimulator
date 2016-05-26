@@ -9,7 +9,7 @@ static ERL_NIF_TERM allocate_pty_nif(ErlNifEnv* env, int argc, const ERL_NIF_TER
     char* name;
     openpty(&master, &slave, NULL, NULL, NULL);
     name = ttyname(slave);
-    return enif_make_tuple3(env, enif_make_int(env, master), enif_make_string(env, name, ERL_NIF_LATIN1));
+    return enif_make_tuple2(env, enif_make_int(env, master), enif_make_string(env, name, ERL_NIF_LATIN1));
 }
 
 static ErlNifFunc nif_funcs[] = {

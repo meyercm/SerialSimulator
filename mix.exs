@@ -10,9 +10,6 @@ defmodule SerialSimulator.Mixfile do
      deps: deps]
   end
 
-  # Configuration for the OTP application
-  #
-  # Type "mix help compile.app" for more information
   def application do
     [applications: [:logger],
     ]
@@ -20,9 +17,6 @@ defmodule SerialSimulator.Mixfile do
 
   defp deps do
     [
-      {:syn, "~> 1.4"},
-      {:gen_serial, github: "kovyl2404/gen_serial"},
-      {:logger_file_backend, github: "onkel-dirtus/logger_file_backend"},
     ]
   end
 end
