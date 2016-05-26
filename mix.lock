@@ -1,0 +1,4 @@
+%{"gen_serial": {:git, "https://github.com/kovyl2404/gen_serial.git", "df9f3774ac93a3a30cc1c68fafe613c225d19bed", []},
+  "gproc": {:hex, :gproc, "0.3.1"},
+  "logger_file_backend": {:git, "https://github.com/onkel-dirtus/logger_file_backend.git", "645fc130ef0c82bd5feb19ea2fa73c4a6877eaeb", []},
+  "syn": {:hex, :syn, "1.4.0", "4de3eb031f3f986326a8fcc872162d73570f443304f7fd13caf36e36e28a118b", [:rebar3], []}}
